@@ -11,6 +11,7 @@
   inputs.src-deser-v0_1_1-alpha_2.ref   = "refs/tags/v0.1.1-alpha.2";
   inputs.src-deser-v0_1_1-alpha_2.owner = "gabbhack";
   inputs.src-deser-v0_1_1-alpha_2.repo  = "deser";
+  inputs.src-deser-v0_1_1-alpha_2.dir   = "";
   inputs.src-deser-v0_1_1-alpha_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
