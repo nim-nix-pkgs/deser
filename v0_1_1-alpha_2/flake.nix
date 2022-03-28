@@ -11,8 +11,15 @@
   inputs.src-deser-v0_1_1-alpha_2.ref   = "refs/tags/v0.1.1-alpha.2";
   inputs.src-deser-v0_1_1-alpha_2.owner = "gabbhack";
   inputs.src-deser-v0_1_1-alpha_2.repo  = "deser";
-  inputs.src-deser-v0_1_1-alpha_2.dir   = "";
   inputs.src-deser-v0_1_1-alpha_2.type  = "github";
+  
+  inputs."github.com/gabbhack/anycase-fork".owner = "nim-nix-pkgs";
+  inputs."github.com/gabbhack/anycase-fork".ref   = "master";
+  inputs."github.com/gabbhack/anycase-fork".repo  = "github.com/gabbhack/anycase-fork";
+  inputs."github.com/gabbhack/anycase-fork".dir   = "";
+  inputs."github.com/gabbhack/anycase-fork".type  = "github";
+  inputs."github.com/gabbhack/anycase-fork".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/gabbhack/anycase-fork".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

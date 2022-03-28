@@ -11,7 +11,6 @@
   inputs.src-deser-master.ref   = "refs/heads/master";
   inputs.src-deser-master.owner = "gabbhack";
   inputs.src-deser-master.repo  = "deser";
-  inputs.src-deser-master.dir   = "";
   inputs.src-deser-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
