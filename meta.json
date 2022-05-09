@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/gabbhack/deser",
   "refs": [
-    "fatal: unable to access 'https://github.com/gabbhack/deser/': SSL connection timeout",
+    "fatal: unable to access 'https://github.com/gabbhack/deser/': Could not resolve host: github.com",
     ""
   ],
   "heads": []
