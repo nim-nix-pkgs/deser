@@ -43,11 +43,11 @@
     "src-deser-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1656526844,
-        "narHash": "sha256-lMiIpmfHs8Ewtnzm1ZCC54QKNMyu9tav1kEbFmcF4tw=",
+        "lastModified": 1657995084,
+        "narHash": "sha256-xfYd32EqFE2xZfWOGP7S4s1EjVrP+d3L9pBvYqQ+FeM=",
         "owner": "gabbhack",
         "repo": "deser",
-        "rev": "f68377058435fba4c09d2bd33d3c9bcc8da2160f",
+        "rev": "080183ffbff76c02eaa238a52e194243b7b41949",
         "type": "github"
       },
       "original": {
