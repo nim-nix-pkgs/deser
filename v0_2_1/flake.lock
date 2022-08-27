@@ -37,10 +37,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-deser-master": "src-deser-master"
+        "src-deser-v0_2_1": "src-deser-v0_2_1"
       }
     },
-    "src-deser-master": {
+    "src-deser-v0_2_1": {
       "flake": false,
       "locked": {
         "lastModified": 1661356402,
@@ -52,7 +52,7 @@
       },
       "original": {
         "owner": "gabbhack",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.2.1",
         "repo": "deser",
         "type": "github"
       }
